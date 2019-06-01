@@ -14,3 +14,9 @@ permalink: pretty
 paginate: 5
 exclude: ["node_modules"]
 
+# Search settings
+tipue_search:
+  include:
+    pages: true
+  exclude:
+    files: [index.md, search.html]
