@@ -1,16 +1,13 @@
 ---
 layout:     post
 title:      "Deep Learning"
-subtitle:   "A Tutorial for Encrypted Deep Learning"
+subtitle:   "Deep Learning"
 date:       2019-05-09 12:00:00
 author:     "prime"
-header-img: "img/home-bg.jpg"
+header-img: "img/home-bg.png"
 ---
 
 <p><b>TLDR:</b> In this blogpost, we're going to train a neural network that is fully encrypted during training (trained on unencrypted data). The result will be a neural network with two beneficial properties. First, the neural network's intelligence is protected from those who might want to steal it, allowing valuable AIs to be trained in insecure environments without risking theft of their intelligence. Secondly, the network can <u>only make encrypted predictions</u> (which presumably have no impact on the outside world because the outside world cannot understand the predictions without a secret key). This creates a valuable power imbalance between a user and a superintelligence. If the AI is homomorphically encrypted, then from it's perspective, <u>the entire outside world is also homomorphically encrypted</u>. A human controls the secret key and has the option to either unlock the AI itself (releasing it on the world) or just individual predictions the AI makes (seems safer).</p>
-
-<p>I typically tweet out new blogposts when they're complete at <a href="https://twitter.com/iamtrask">@iamtrask</a>. Feel free to follow if you'd be interested in reading more in the future and thanks for all the feedback!
-</p>
 
 <p><b>Edit:</b> If you're interested in training Encrypted Neural Networks, check out the <a href="https://github.com/OpenMined/PySyft">PySyft Library at OpenMined</a></p>
 
