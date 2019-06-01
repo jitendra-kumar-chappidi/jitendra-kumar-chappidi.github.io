@@ -4,7 +4,6 @@ title:      "Deep Learning Image Classification"
 subtitle:   "Image classification"
 date:       2019-06-01 02:10:00
 author:     "prime"
-tipue_search_active: true
 header-img: "img/home-bg.png"
 
 ---

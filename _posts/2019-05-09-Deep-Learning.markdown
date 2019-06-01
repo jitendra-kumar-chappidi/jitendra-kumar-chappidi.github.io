@@ -4,7 +4,6 @@ title:      "Deep Learning"
 subtitle:   "Deep Learning"
 date:       2019-05-09 12:00:00
 author:     "prime"
-tipue_search_active: true
 header-img: "img/home-bg.png"
 ---
 
