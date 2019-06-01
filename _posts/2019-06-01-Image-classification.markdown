@@ -4,7 +4,9 @@ title:      "Deep Learning Image Classification"
 subtitle:   "Image classification"
 date:       2019-06-01 02:10:00
 author:     "prime"
+tipue_search_active: true
 header-img: "img/home-bg.png"
+
 ---
 
 <p><b>TLDR:</b> In this blogpost, we're going to train a neural network that is fully encrypted during training (trained on unencrypted data). The result will be a neural network with two beneficial properties. First, the neural network's intelligence is protected from those who might want to steal it, allowing valuable AIs to be trained in insecure environments without risking theft of their intelligence. Secondly, the network can <u>only make encrypted predictions</u> (which presumably have no impact on the outside world because the outside world cannot understand the predictions without a secret key). This creates a valuable power imbalance between a user and a superintelligence. If the AI is homomorphically encrypted, then from it's perspective, <u>the entire outside world is also homomorphically encrypted</u>. A human controls the secret key and has the option to either unlock the AI itself (releasing it on the world) or just individual predictions the AI makes (seems safer).</p>
