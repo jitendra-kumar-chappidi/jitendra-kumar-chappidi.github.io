@@ -897,11 +897,15 @@ There are faster and more secure homomorphic encryption algorithms. Taking this 
 
 <h2 class="section-heading">Part 12: Potential Applications</h2>
 
-<p><b>Decentralized AI:</b> Companies can deploy models to be trained or used in the field without risking their intelligence being stolen.</p>
+<p><b>Problem Description:</b> </p>
 
-<p><b>Protected Consumer Privacy:</b> the previous application opens up the possibility that consumers could simply hold onto their data, and "opt in" to different models being trained on their lives, instead of sending their data somewhere else. Companies have less of an excuse if their IP isn't at risk via decentralization. Data is power and it needs to go back to the people.
+<p><b>Data Summary:</b>
 
-<p><b>Controlled Superintelligence:</b> The network can become as smart as it wants, but unless it has the secret key, all it can do is predict jibberish.</p>
+<p><b>Test Harness:</b> </p>
+
+<p><b>Baseline Perfomance:</b>
+
+<p><b>Experimental Results:</b> </p>
 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/shCore.css">
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/shThemeDefault.css">
