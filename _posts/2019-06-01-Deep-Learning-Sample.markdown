@@ -2,7 +2,7 @@
 layout:     post
 title:      "Deep Learning"
 subtitle:   "Deep Learning"
-date:       2019-05-09 12:00:00
+date:       2019-06-01 12:00:00
 author:     "prime"
 header-img: "img/home-bg.png"
 ---
