@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Deep Learning"
-subtitle:   "Deep Learning"
+title:      "Deep Learning Project Structure"
+subtitle:   "Deep Learning Sample Project"
 date:       2019-06-01 12:00:00
 author:     "prime"
 header-img: "img/home-bg.png"
