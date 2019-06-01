@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7b01ea9-ad3f-450d-bb14-24d8d7699f9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2019-06-01-Deep-Learning-sample.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2019/06/01/deep-learning-sample/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_futurePosts/2014-11-24-distributing-network.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_futurePosts/2015-11-19-anyone-can-code-lstm-part2.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_futurePosts/2017-04-14-deep-learning-toolbelt.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_futurePosts/2017-05-28-ai-blockchain.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_futurePosts/2017-06-01-paillier-he.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-05-09-Deep-Learning.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-05-09-Deep-Learning.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/05/09/Deep Learning/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/05/09/Deep Learning/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +29,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="252">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -57,29 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/about/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/2019/05/09/Deep Learning/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="1030" column="10" lean-forward="true" selection-start-line="1030" selection-start-column="10" selection-end-line="1030" selection-end-column="10" />
+            <state relative-caret-position="169">
+              <caret line="18" column="96" lean-forward="true" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -88,10 +66,31 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-05-09-Deep-Learning.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="425">
+              <first_editor relative-caret-position="223">
                 <caret line="913" column="28" lean-forward="true" selection-start-line="913" selection-start-column="28" selection-end-line="913" selection-end-column="28" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-06-01-Deep-Learning-sample.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="92">
+                <caret line="866" lean-forward="true" selection-start-line="866" selection-end-line="866" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_site/2019/06/01/deep-learning-sample/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -158,6 +157,17 @@
               <item name="prime8565.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="prime8565.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="prime8565.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prime8565.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prime8565.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prime8565.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_site" type="462c0819:PsiDirectoryNode" />
+              <item name="2019" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -166,7 +176,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_site/2019/06/01/deep-learning-sample" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_site/2019/06/01/deep-learning-sample" />
+      <recent name="$PROJECT_DIR$/_posts" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559367029471</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes to UI">
+      <created>1559368475385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559368475404</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changes to UI tag removal">
+      <created>1559368746917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559368746917</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -206,9 +237,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.242163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -226,7 +257,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes to UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes to UI" />
+    <MESSAGE value="changes to UI tag removal" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes to UI tag removal" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_futurePosts/2017-06-01-paillier-he.markdown">
@@ -297,16 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-05-09-Deep-Learning.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="425">
-            <caret line="913" column="28" lean-forward="true" selection-start-line="913" selection-start-column="28" selection-end-line="913" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -317,16 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-310" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_futurePosts/2014-11-24-distributing-network.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -346,6 +358,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="18" column="96" lean-forward="true" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -353,10 +386,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2019-05-09-Deep-Learning.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="223">
+            <caret line="913" column="28" lean-forward="true" selection-start-line="913" selection-start-column="28" selection-end-line="913" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-06-01-Deep-Learning-sample.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="866" lean-forward="true" selection-start-line="866" selection-end-line="866" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/2019/06/01/deep-learning-sample/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="225">
+          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
         </state>
       </provider>
     </entry>
