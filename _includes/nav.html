@@ -19,12 +19,12 @@
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="">TTT
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/">Topics
                         <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="">TTT-0</a> </li>
-                        <li><a href="">TTT-1</a> </li>
+                        <li><a href="{{ page.url | prepend: site.baseurl }}">TTT-0</a> </li>
+                        <li><a href="{{ page.url | prepend: site.baseurl }}">TTT-1</a> </li>
                     </ul>
 
 
