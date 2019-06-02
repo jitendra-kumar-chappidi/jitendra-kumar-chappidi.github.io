@@ -4,6 +4,27 @@ title: "Topics"
 description: ""
 header-img: "img/me.jpg"
 ---
+
+
+<form action="{{ page.url | relative_url }}">
+  <!--<div class="tipue_search_left"><img src="{{ "/search/search.png" | relative_url }}" class="tipue_search_icon"></div> -->
+  <div class="tipue_search_right">
+    <button type="submit" class="tipue_search_button">
+      <input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required>
+    </button>
+  </div>
+  <div style="clear: both;"></div>
+</form>
+
+
+<div id="tipue_search_content"></div>
+
+
+
+
+
 <script>
-window.location.replace("https://prime8565.github.io/topics/");
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch();
+});
 </script>
