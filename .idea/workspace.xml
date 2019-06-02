@@ -3,52 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f7b01ea9-ad3f-450d-bb14-24d8d7699f9f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/05/09/Deep Learning/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/06/01/Deep Learning Sample/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/contact/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/css/clean-blog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/css/clean-blog.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/css/help.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/css/page_white_code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/css/page_white_copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/css/printer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/css/shCore.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/css/shThemeDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/css/syntax.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/img/home-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/js/MathBox-bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/js/clean-blog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/js/clean-blog.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/js/domready.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/js/shBrushPython.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/js/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/js/shLegacy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/less/clean-blog.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/search/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/shaders/snippets.glsl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/topics/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics.html" beforeDir="false" afterPath="$PROJECT_DIR$/topics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,56 +16,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="34" column="59" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="59" />
+            <state relative-caret-position="334">
+              <caret line="34" column="83" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -118,13 +34,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="12" column="84" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="84" />
+            <state relative-caret-position="469">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/topics.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -132,6 +48,63 @@
               <folding>
                 <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search/tipuesearch_content.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search/tipuesearch.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2175">
+              <caret column="85" selection-start-column="85" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search/tipuesearch_set.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-193">
+              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -155,11 +128,8 @@
         <option value="$PROJECT_DIR$/_site/feed.xml" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/_posts/2019-06-01-Image-classification.markdown" />
         <option value="$PROJECT_DIR$/_layouts/page.html" />
         <option value="$PROJECT_DIR$/search/css/tipuesearch.css" />
-        <option value="$PROJECT_DIR$/search.html" />
-        <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_posts/2019-06-01-Deep-Learning-Sample.markdown" />
         <option value="$PROJECT_DIR$/_site/contact/index.html" />
         <option value="$PROJECT_DIR$/_site/about/index.html" />
@@ -169,13 +139,18 @@
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_site/topics/index.html" />
         <option value="$PROJECT_DIR$/_site/2019/06/01/Deep Learning Sample/index.html" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/topics.html" />
+        <option value="$PROJECT_DIR$/_posts/2019-06-01-Image-classification.markdown" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/search/tipuesearch_set.js" />
+        <option value="$PROJECT_DIR$/search/tipuesearch.min.js" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/search.html" />
       </list>
     </option>
   </component>
@@ -217,6 +192,11 @@
             <path>
               <item name="prime8565.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="prime8565.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prime8565.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prime8565.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,20 +240,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559365956664</updated>
-    </task>
-    <task id="LOCAL-00004" summary="New Post 06-01">
-      <created>1559369333732</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1559369333732</updated>
-    </task>
-    <task id="LOCAL-00005" summary="changes to includes folder">
-      <created>1559369630947</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1559369630947</updated>
     </task>
     <task id="LOCAL-00006" summary="changes to includes folder">
       <created>1559369830569</created>
@@ -604,7 +570,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559504778033</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="UI changes">
+      <created>1559506531635</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1559506531635</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Search Functionality">
+      <created>1559510010363</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1559510010363</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -638,7 +618,6 @@
     <MESSAGE value="changes to UI tag removal" />
     <MESSAGE value="New Post 06-01" />
     <MESSAGE value="changes to includes folder" />
-    <MESSAGE value="UI changes" />
     <MESSAGE value="06-01 post changes" />
     <MESSAGE value="UI chages" />
     <MESSAGE value="image classification" />
@@ -647,12 +626,11 @@
     <MESSAGE value="search functionality" />
     <MESSAGE value="Navigation Bar dropdown for topics" />
     <MESSAGE value="next and previous post URL changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="next and previous post URL changes" />
+    <MESSAGE value="UI changes" />
+    <MESSAGE value="Search Functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search Functionality" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/clean-blog.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/feed.xml" />
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -682,19 +660,6 @@
     <entry file="file://$PROJECT_DIR$/search/tipuesearch/tipuesearch_content.js" />
     <entry file="file://$PROJECT_DIR$/search/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/tipuesearch.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2407">
-          <caret column="458" selection-start-column="458" selection-end-column="458" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/tipuesearch_content.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/search.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/search/css/tipuesearch.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -749,16 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
           <caret line="335" column="1" lean-forward="true" selection-start-line="335" selection-start-column="1" selection-end-line="335" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-06-01-Image-classification.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-13191">
-            <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -820,59 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/2019/05/09/Deep Learning/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16080">
           <caret line="1072" selection-start-line="1072" selection-end-line="1072" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" column="84" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="34" column="59" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -904,13 +810,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search.html">
+    <entry file="file://$PROJECT_DIR$/search/search.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-06-01-Image-classification.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/tipuesearch.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2175">
+          <caret column="85" selection-start-column="85" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="34" column="83" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/tipuesearch_set.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/tipuesearch_content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -918,6 +897,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#div#1;n#form#0;n#!!top" expanded="true" />
           </folding>
