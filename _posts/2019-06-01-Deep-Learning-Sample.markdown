@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "Deep Learning Project Structure"
-subtitle:   "Deep Learning Sample Project"
+title:      "Deep Learning CNN"
+subtitle:   "Image classification(Fashion MNIST)"
 date:       2019-06-01 12:00:00
-author:     "prime"
+author:     "Jitendra kumar"
 header-img: "img/home-bg.png"
 ---
 
@@ -76,59 +76,6 @@ header-img: "img/home-bg.png"
 	<li><a href="https://en.wikipedia.org/wiki/Exponential_function">Exponential</a> - hmmm... perhaps a bit harder</li>
 </ul>
 
-<p>It seems like we'll be able to get Division and Subtraction pretty trivially, but these more complicated functions are... well... more complicated than simple addition and multiplication. In order to try to homomorphically encrypt a deep neural network, we need one more secret ingredient.</p>
-
-<h2 class="section-heading">Part 4: Taylor Series Expansion</h2>
-
-<p>Perhaps you remember it from primary school. A <a href="https://en.wikipedia.org/wiki/Taylor_series">Taylor Series</a> allows one to compute a complicated (nonlinear) function using an <u>infinite</u> series of additions, subtractions, multiplications, and divisions. This is perfect! (except for the infinite part). Fortunately, if you stop short of computing the exact Taylor Series Expansion you can still get a close approximation of the function at hand. Here are a few popular functions approximated via Taylor Series (<a href="http://hyperphysics.phy-astr.gsu.edu/hbase/tayser.html">Source</a>).</p>
-
-<img class="img-responsive" width="100%" src="{{ site.baseurl }}/img/taylor_series.gif" alt="">
-
-<p>WAIT! THERE ARE EXPONENTS! No worries. Exponents are just repeated multiplication, which we can do. For something to play with, here's a little python implementation approximating the Taylor Series for our desirable sigmoid function (the formula for which you can lookup on <a href="http://mathworld.wolfram.com/SigmoidFunction.html">Wolfram Alpha</a>). We'll take the first few parts of the series and see how close we get to the true sigmoid function.</p>
-
-<iframe src="https://trinket.io/embed/python/0fc12dd1f6" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-<p>With only the first four factors of the Taylor Series, we get very close to sigmoid for a relatively large series of numbers. Now that we have our general strategy, it's time to select a Homomorphic Encryption algorithm.</p>
-
-<h2 class="section-heading">Part 5: Choosing an Encryption Algorithm</h2>
-
-<p>Homomorphic Encryption is a relatively new field, with the major landmark being the discovery of the <a href="https://www.cs.cmu.edu/~odonnell/hits09/gentry-homomorphic-encryption.pdf">first Fully Homomorphic algorithm</a> by Craig Gentry in 2009. This landmark event created a foothold for many to follow. Most of the excitement around Homomorphic Encryption has been around developing Turing Complete, homomorphically encrypted computers. Thus, the quest for a fully homomorphic scheme seeks to find an algorithm that can efficiently and securely compute the various logic gates required to run arbitrary computation. The general hope is that people would be able to securely offload work to the cloud with no risk that the data being sent could be read by anyone other than the sender. It's a very cool idea, and a lot of progress has been made.</p>
-
-<p>However, there are some drawbacks. In general, most <i>Fully Homomorphic Encryption</i> schemes are incredibly slow relative to normal computers (not yet practical). This has sparked an interesting thread of research to limit the number of operations to be <i>Somewhat</i> homomorphic so that at least some computations could be performed. Less flexible but faster, a common tradeoff in computation.</p>
-
-<p>This is where we want to start looking. In theory, we want a homomorphic encryption scheme that operates on floats (but we'll settle for integers, as we'll see) instead of binary values. Binary values would work, but not only would it require the flexibility of Fully Homomorphic Encryption (costing performance), but we'd have to manage the logic between binary representations and the math operations we want to compute. A less powerful, tailored HE algorithm for floating point operations would be a better fit.</p>
-
-<p>Despite this constraint, there is still a plethora of choices. Here are a few popular ones with characteristics we like:</p>
-
-
-<ul>
-	<li><a href="http://www.rle.mit.edu/sia/wp-content/uploads/2015/04/2014-zhou-wornell-ita.pdf">Efficient Homomorphic Encryption on Integer Vectors and Its Applications</a></li>
-	<li><a href="https://eprint.iacr.org/2013/075.pdf">Yet Another Somewhat Homomorphic Encryption (YASHE)</a></li>
-	<li><a href="https://pdfs.semanticscholar.org/531f/8e756ea280f093138788ee896b3fa8ca085a.pdf">Somewhat Practical Fully Homomorphic Encryption (FV)</a></li>
-	<li><a href="http://eprint.iacr.org/2011/277.pdf">Fully Homomorphic Encryption without Bootstrapping</a></li>
-</ul>
-
-
-<p>The best one to use here is likely either YASHE or FV. YASHE was the method used for the popular CryptoNets algorithm, with great support for floating point operations. However, it's pretty complex. For the purpose of making this blogpost easy and fun to play around with, we're going to go with the slightly less advanced (and possibly <a href="https://eprint.iacr.org/2016/775.pdf">less secure</a>) Efficient Integer Vector Homomorphic Encryption. However, I think it's important to note that new HE algorithms are being developed as you read this, and the ideas presented in this blogpost are generic to any schemes that are homomorphic over addition and multiplication of integers and/or floating point numbers. If anything, it is my hope to raise awareness for this application of HE such that more HE algos will be developed to optimize for Deep Learning.</p>
-
-<p>This encryption algorithm is also covered extensively by Yu, Lai, and Paylor in <a href="https://courses.csail.mit.edu/6.857/2015/files/yu-lai-payor.pdf"> this work</a> with an accompanying implementation <a href="https://github.com/jamespayor/vector-homomorphic-encryption">here</a>. The main bulk of the approach is in the C++ file vhe.cpp. Below we'll walk through a python port of this code with accompanying explanation for what's going on. This will also be useful if you choose to implement a more advanced scheme as there are themes that are relatively universal (general function names, variable names, etc.).</p>
-
-<h2 class="section-heading">Part 6: Homomorphic Encryption in Python</h2>
-
-Let's start by covering a bit of the Homomorphic Encryption jargon:
-
-<ul>
-	<li><b>Plaintext:</b> this is your un-encrypted data. It's also called the "message". In our case, this will be a bunch of numbers representing our neural network.</li>
-	<li><b>Cyphertext:</b> this is your encrypted data. We'll do math operations on the cyphertext which will change the underlying Plaintext.</li>
-	<li><b>Public Key:</b> this is a pseudo-random sequence of numbers that allows anyone to encrypt data. It's ok to share this with people because (in theory) they can only use it for encryption. </li>
-	<li><b>Private/Secret Key:</b> this is a pseudo-random sequence of numbers that allows you to decrypt data that was encrypted by the Public Key. You do NOT want to share this with people. Otherwise, they could decrypt your messages.</li>
-
-</ul>
-
-<p>
-So, those are the major moving parts. They also correspond to particular variables with names that are pretty standard across different homomorphic encryption techniques. In this paper, they are the following:
-</p>
-<p>
 <ul>
 	<li><b>S:</b> this is a matrix that represents your Secret/Private Key. You need it to decrypt stuff.</li>
 	<li><b>M:</b> This is your public key. You'll use it to encrypt stuff and perform math operations. Some algorithms don't require the public key for all math operations but this one uses it quite extensively.</li>
@@ -138,12 +85,6 @@ So, those are the major moving parts. They also correspond to particular variabl
 	<li><b>E</b> or <b>e</b>: generally refers to random noise. In some cases, this refers to noise added to the data before encrypting it with the public key. This noise is generally what makes the decryption difficult. It's what allows two encryptions of the same message to be different, which is important to make the message hard to crack. Note, this can be a vector or a matrix depending on the algorithm and implementation. In other cases, this can refer to the noise that accumulates over operations. More on that later. </li>
 
 </ul>
-</p>
-
-<p>
-As is convention with many math papers, capital letters correspond to matrices, lowercase letters correspond to vectors, and italic lowercase letters correspond to scalars.
-
-Homomorphic Encryption has four kinds of operations that we care about: public/private keypair generation, one-way encryption, decryption, and the math operations. Let's start with decryption.
 </p>
 
 <center>
