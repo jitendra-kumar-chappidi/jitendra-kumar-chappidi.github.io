@@ -1,5 +1,5 @@
 # Site settings
-title: Prime8565
+title: Jitendra Kumar
 subtitle: Machine Learning Blog
 email: optimusprime8565@gmail.com
 description: "machine learning blog."
@@ -18,6 +18,3 @@ exclude: ["node_modules"]
 tipue_search:
   include:
     pages: true
-    collections: [apples, oranges]
-  exclude:
-    files: [README.md]

@@ -31,6 +31,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
+    {% if page.tipue_search_active or layout.tipue_search_active %}
+    <link rel="stylesheet" href="{{ "/search/css/normalize.css" | prepend: site.baseurl }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="{{ "/search/tipuesearch_content.js" | prepend: site.baseurl }}"></script>
+    <link rel="stylesheet" href="{{ "/search/css/tipuesearch.css" | prepend: site.baseurl }}">
+    <script src="{{ "/search/tipuesearch_set.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/search/tipuesearch.min.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
 
 </head>
