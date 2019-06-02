@@ -20,4 +20,4 @@ tipue_search:
     pages: true
     collections: [apples, oranges]
   exclude:
-    files: [README.md, search.html]
+    files: [README.md]
