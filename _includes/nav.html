@@ -14,18 +14,20 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" >
                 <li>
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/topics/">Topics
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover = "dropdown" data-animations="heartBeat" href="{{ site.baseurl }}/topics/">Topics
                         <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="{{ page.url | prepend: site.baseurl }}">Deep Learning for Computer Vision</a> </li>
                         <li><a href="{{ page.url | prepend: site.baseurl }}">Deep Learning for Time Series</a> </li>
                         <li><a href="{{ page.url | prepend: site.baseurl }}">Deep Learning for NLP</a> </li>
+                        <li class="divider"></li>
+                        <li><a href="">Reinforcment Learning</a> </li>
                     </ul>
 
 
