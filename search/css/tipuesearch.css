@@ -51,22 +51,22 @@ http://www.tipue.com/search
      border-bottom-right-radius: 3px;
      box-sizing: border-box;
      cursor: pointer;
-	outline: 0;
+	 outline: 0;
 }
 .tipue_search_icon
 {
      float: left;
      font: 24px/1 'Open Sans', sans-serif;
      -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	 -moz-osx-font-smoothing: grayscale;
      color: #333;
      transform: rotate(-45deg);
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	box-sizing: border-box;
+	 -moz-appearance: none;
+	 -webkit-appearance: none;
+	 box-sizing: border-box;
      box-shadow: none;
-	outline: 0;	
-	margin: -1px 0 0 16px;
+	 outline: 0;
+	 margin: -1px 0 0 16px;
 }
 .tipue_search_group:after
 {
