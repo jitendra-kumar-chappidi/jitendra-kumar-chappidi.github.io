@@ -4,7 +4,7 @@ title:      "Pandas Series:Part-01"
 subtitle:   "Pandas"
 date:       2019-06-07 08:00:00
 author:     "jitendra kumar"
-header-img: "img/panda.jpg"
+header-img: "img/home-bg.png"
 ---
 
 
