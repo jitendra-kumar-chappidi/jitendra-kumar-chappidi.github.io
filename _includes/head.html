@@ -36,10 +36,11 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    {% if page.tipue_search_active or layout.tipue_search_active %}
-    <link rel="stylesheet" href="{{ "/search/css/normalize.css" | prepend: site.baseurl }}">
     <!-- jQuery -->
     <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+
+    {% if page.tipue_search_active or layout.tipue_search_active %}
+    <link rel="stylesheet" href="{{ "/search/css/normalize.css" | prepend: site.baseurl }}">
     <script src="{{ "/search/tipuesearch_content.js" | prepend: site.baseurl }}"></script>
     <link rel="stylesheet" href="{{ "/search/css/tipuesearch.css" | prepend: site.baseurl }}">
     <script src="{{ "/search/tipuesearch_set.js" | prepend: site.baseurl }}"></script>

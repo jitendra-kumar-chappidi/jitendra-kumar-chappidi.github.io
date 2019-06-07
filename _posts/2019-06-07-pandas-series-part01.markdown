@@ -14,7 +14,7 @@ header-img: "img/home-bg.png"
 
 
 <ul>
-<li><h3>working with dates
+<li><h3>working with dates<h3>
 </ul>
 
 <pre class="brush: python">
